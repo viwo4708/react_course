@@ -75,7 +75,7 @@ export default [
         id: 5,
         Name: "Mighty Mayte",
         Spawn: "Mexico City, MX",
-        Age: "22",
+        Age: "21",
         Intelligence: 9.7,
         Power: 6.4,
         Speed: 5.8,
@@ -108,7 +108,7 @@ export default [
         Power: 9.7,
         Speed: 4.7,
         Agility: 4.4,
-        Stamina: 3.8,
+        Stamina: 12,
         Description: "Exceptional charm abilities. Also good at extracting gold from NPCs. If Hermes powerup is found in map zone 13, special abilities are unlocked.",
         imageUrl: "./assets/abe.jpg"
     }
