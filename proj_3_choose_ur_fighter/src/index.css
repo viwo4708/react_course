@@ -1,0 +1,92 @@
+body {
+  background-color: #FFD6C0;
+}
+
+h1 {
+  text-align: right;
+  font-family: 'Rammetto One', cursive;
+  font-size: 90px;
+  line-height: 40px;
+  color: #EC368D;
+}
+
+h2 {
+  font-family: 'Fugaz One', cursive;
+  color: #440381;
+  font-size: 40px;;
+}
+
+h4 {
+  font-family: 'Exo 2', sans-serif;
+  color: #440381;
+  font-size: 14px;
+}
+
+.infoItem {
+  font-family: 'Rajdhani', sans-serif;
+  color: black;
+}
+
+.stats {
+  background-color: #fdc5c5;
+  padding: 20px;
+}
+
+h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #42bcd2;
+  width: 40px;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #51E5FF;
+}
+
+.title {
+  margin-right: 25px;
+}
+
+.CharImg {
+  width: 270px;
+  margin: 20px;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+}
+
+.Character {
+  border-radius: 20px;
+  background-color: #FFA5A5;
+  padding: 20px;
+}
+
+.Characters-Container {
+  width: 200%;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  gap: 40px;
+  margin-top: 0px;
+  padding-bottom: 20px;
+}
