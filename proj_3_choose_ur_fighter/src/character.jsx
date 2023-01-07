@@ -2,6 +2,9 @@ import { useState } from 'react'
 
 function Character(props) {
 
+  console.log("props: ");
+  console.log(props);
+
   var displaymode = "";
 
   if (props.item.id === 7) {
@@ -10,8 +13,6 @@ function Character(props) {
   else {
     displaymode = "none";
   }
-
-  console.log("display: " + displaymode + ";");
 
   return (
     <div className="Character">
