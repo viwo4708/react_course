@@ -30,6 +30,20 @@ export default [
     },
 
     {
+        id: 8,
+        Name: "Brain",
+        Spawn: "Boston, MA",
+        Age: "12",
+        Intelligence: 10.5,
+        Power: 3.4,
+        Speed: 8.9,
+        Agility: 7.2,
+        Stamina: 9.6,
+        Description: "Looks from Brain do kill, except for enemies class 9 and above. Can use punt abiity to clear small obstacles.",
+        imageUrl: "./assets/brian.jpg"
+    },
+
+    {
         id: 3,
         Name: "Nice Nailz",
         Spawn: "Hong Kong",
@@ -62,7 +76,7 @@ export default [
         Name: "Mighty Mayte",
         Spawn: "Mexico City, MX",
         Age: "22",
-        Intelligence: 8.7,
+        Intelligence: 9.7,
         Power: 6.4,
         Speed: 5.8,
         Agility: 8.6,
