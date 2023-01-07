@@ -2,9 +2,6 @@ import { useState } from 'react'
 
 function Character(props) {
 
-  console.log("props: ");
-  console.log(props);
-
   var displaymode = "";
 
   if (props.item.id === 7) {
