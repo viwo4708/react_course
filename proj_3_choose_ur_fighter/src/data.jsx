@@ -111,6 +111,20 @@ export default [
         Stamina: 12.0,
         Description: "Exceptional charm abilities. Also good at extracting gold from NPCs. If Hermes powerup is found in map zone 13, special abilities are unlocked.",
         imageUrl: "./assets/abe.jpg"
+    },
+
+    {
+        id: 9,
+        Name: "Hadaddy",
+        Spawn: "Salida, CO",
+        Age: "21",
+        Intelligence: 9.7,
+        Power: 10,
+        Speed: 8.8,
+        Agility: 7.2,
+        Stamina: 6.9,
+        Description: "Has a companion sloth named Sloth. Known for devious and snarky remarks, which disarm and confuse enemies. Can use incense for accelerated healing from damage.",
+        imageUrl: "./assets/al.jpg"
     }
 
 ]
